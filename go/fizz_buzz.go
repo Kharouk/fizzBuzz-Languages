@@ -2,12 +2,21 @@ package main
 
 import "fmt"
 
-//FizzBuzz function will introduce us to the game
-func FizzBuzz() string {
+//FizzBuzzWelcome function will introduce us to the game
+func FizzBuzzWelcome() string {
 	return "Welcome to FizzBuzz!"
 }
 
+func isDivisibleBy3(num int) bool {
+	if num%3 == 0 {
+		return true
+	} else {
+		return false
+	}
+}
+
 func main() {
-	fmt.Println(FizzBuzz())
+	fmt.Println(FizzBuzzWelcome())
 	fmt.Println("Connected!")
+	fmt.Println()
 }
