@@ -24,6 +24,9 @@ class FizzBuzzTest(unittest.TestCase):
   def test_number_not_divisible_by_15(self):
     self.assertEqual(fizz_buzz_divisible_by_15(23), 23)
 
+  def test_fizzbuzz_up_to_ten(self):
+    self.assertEqual(fizz_buzz_game_array(10), [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz'])
+
 
 if __name__ == '__main__':
   unittest.main()
