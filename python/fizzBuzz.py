@@ -12,3 +12,9 @@ def fizz_buzz_divisible_by_5(num):
     return 'Buzz'
   else:
     return num
+
+def fizz_buzz_divisible_by_15(num):
+  if num % 15 == 0:
+    return 'FizzBuzz'
+  else: 
+    return num
