@@ -18,5 +18,4 @@ func isDivisibleBy3(num int) bool {
 func main() {
 	fmt.Println(FizzBuzzWelcome())
 	fmt.Println("Connected!")
-	fmt.Println()
 }
