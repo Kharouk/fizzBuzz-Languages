@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace helloWorld
+namespace unit_testing_using_nunit
 {
     class Program
     {
