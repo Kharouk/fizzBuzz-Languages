@@ -10,9 +10,8 @@ func FizzBuzzWelcome() string {
 func isDivisibleBy3(num int) bool {
 	if num%3 == 0 {
 		return true
-	} else {
-		return false
 	}
+	return false
 }
 
 func main() {

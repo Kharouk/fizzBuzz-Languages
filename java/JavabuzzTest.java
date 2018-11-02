@@ -43,7 +43,6 @@ public class JavabuzzTest {
     assertEquals("Buzz", answer.get(5));
     assertEquals("7", answer.get(7));
     assertEquals("JavaBuzz", answer.get(15));
-    // assertEquals(answer.get(16), "Java");
   }
 
   @Test(expected = IndexOutOfBoundsException.class)
