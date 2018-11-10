@@ -43,6 +43,27 @@ class SwiftBuzzTests: XCTestCase {
         let result = swiftbuzz.isDivisibleByFifteen(number: 31)
         XCTAssertEqual(result, false)
     }
+    
+    func testSaySwiftWhen3() {
+        let result = swiftbuzz.words(number: 3)
+        XCTAssertEqual(result, "Swift")
+    }
+    
+    func testSayBuzzWhen5() {
+        let result = swiftbuzz.words(number: 5)
+        XCTAssertEqual(result, "Buzz")
+    }
+    
+    
+    func testSaySwiftBuzzWhen15() {
+        let result = swiftbuzz.words(number: 15)
+        XCTAssertEqual(result, "SwiftBuzz")
+    }
+    
+    func testTheProgramWorksTo10() {
+        let result = swiftbuzz.start(number: 10)
+        XCTAssertEqual(result, "1, 2, Swift, 4, Buzz, Swift, 7, 8, Swift, Buzz")
+    }
 
 
 }
