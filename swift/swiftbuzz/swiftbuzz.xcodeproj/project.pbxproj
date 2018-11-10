@@ -93,8 +93,8 @@
 		7883C9762196F894006CD47B /* swiftbuzzTests */ = {
 			isa = PBXGroup;
 			children = (
-				7883C9792196F894006CD47B /* Info.plist */,
 				7883C9822196F8E4006CD47B /* SwiftBuzzTests.swift */,
+				7883C9792196F894006CD47B /* Info.plist */,
 			);
 			path = swiftbuzzTests;
 			sourceTree = "<group>";

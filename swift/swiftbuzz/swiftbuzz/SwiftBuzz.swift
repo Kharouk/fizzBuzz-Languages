@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class SwiftBuzz {
+    func isDivisibleByThree(number: Int) -> Bool {
+        return true
+    }
+}
