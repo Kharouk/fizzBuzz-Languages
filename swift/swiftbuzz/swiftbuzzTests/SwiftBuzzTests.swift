@@ -1,5 +1,5 @@
 //
-//  swiftbuzzTests.swift
+//  SwiftBuzzTests.swift
 //  swiftbuzzTests
 //
 //  Created by Alex Kharouk on 10/11/2018.
@@ -7,9 +7,8 @@
 //
 
 import XCTest
-@testable import swiftbuzz
 
-class swiftbuzzTests: XCTestCase {
+class SwiftBuzzTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -19,10 +18,12 @@ class swiftbuzzTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testIsDivisibleByThree() {
+        let swiftbuzz = SwiftBuzz()
+        let result = swiftbuzz.isDivisibleByThree(3)
+        XCTAssert(result, true)
     }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
