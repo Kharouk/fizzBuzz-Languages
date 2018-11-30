@@ -48,5 +48,11 @@ namespace SharpBuzz
         {
             Assert.AreEqual(Sharp.DivisibleBy15(31), false);
         }
+
+        [Test]
+        public void SharpBuzz_OutputFull()
+        {
+            Assert.AreEqual(Sharp.OutputsAll(100), "SharpBuzz");
+        }
     }
 }
