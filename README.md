@@ -8,10 +8,10 @@ Languages Completed:
 - [x] [Python](https://github.com/Kharouk/fizzBuzz-Languages/tree/master/python)
 - [x] [Java](https://github.com/Kharouk/fizzBuzz-Languages/tree/master/java)
 - [x] [Swift](https://github.com/Kharouk/fizzBuzz-Languages/tree/master/swift/swiftbuzz)
+- [x] [C#](https://github.com/Kharouk/fizzBuzz-Languages/tree/master/c-sharp)
 
 Next Languages:
 ---
-- [ ] [C#](https://github.com/Kharouk/fizzBuzz-Languages/tree/master/c-sharp)
 - [ ] Go
 - [ ] Brainf*ck
 - [ ] [Lua](https://github.com/Kharouk/fizzBuzz-Languages/tree/master/lua)
