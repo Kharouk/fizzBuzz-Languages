@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace SharpBuzz
@@ -8,8 +9,8 @@ namespace SharpBuzz
         public static void Main()
         {
             SharpBuzz buzz = new SharpBuzz();
-            buzz.OutputsAll(100);
         }
+
         public string Hello()
         {
             return "Hello World!";
@@ -39,9 +40,9 @@ namespace SharpBuzz
             return num % 5 == 0 && num % 3 == 0;
         }
 
-        public void OutputsAll(int num)
+        public void OutputsAllToConsole(int num)
         { 
-        int start = 1;
+            int start = 1;
             while (start < num)
             {
                 if (DivisibleBy15(start))
@@ -62,6 +63,35 @@ namespace SharpBuzz
                 }
                 start += 1;
             }
+        }
+
+        public Array OutputsAllToArray(int num)
+        {
+            List<string> list = new List<string>();
+            int start = 1;
+            while (start < num)
+            {
+                if (DivisibleBy15(start))
+                {
+                    list.Add("SharpBuzz");
+                }
+                else if (DivisibleBy5(start))
+                {
+                    list.Add("Buzz");
+                }
+                else if (DivisibleBy3(start))
+                {
+                   list.Add("Sharp");
+                }
+                else
+                {
+                   list.Add($"{start}");
+                }
+                start += 1;
+            }
+            Array buzzAry = list.ToArray();
+            return buzzAry;
+
         }
     }
 }

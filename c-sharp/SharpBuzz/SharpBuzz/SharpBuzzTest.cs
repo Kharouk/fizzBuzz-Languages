@@ -8,51 +8,46 @@ namespace SharpBuzz
         private SharpBuzz Sharp = new SharpBuzz();
 
         [Test]
-        public void SharpBuzz_Works()
-        {
-            Assert.AreEqual(Sharp.Hello(), "Hello World!");
-        }
-
-        [Test]
         public void SharpBuzz_divisibleBy3()
         {
-            Assert.AreEqual(Sharp.DivisibleBy3(3), true);
+            Assert.AreEqual(true, Sharp.DivisibleBy3(3));
         }
 
         [Test]
         public void SharpBuzz_notDivisibleBy3()
         {
-            Assert.AreEqual(Sharp.DivisibleBy3(5), false);
+            Assert.AreEqual(false, Sharp.DivisibleBy3(5));
         }
 
         [Test]
         public void SharpBuzz_divisibleBy5()
         {
-            Assert.AreEqual(Sharp.DivisibleBy5(10), true);
+            Assert.AreEqual(true, Sharp.DivisibleBy5(10));
         }
 
         [Test]
         public void SharpBuzz_notDivisibleBy5()
         {
-            Assert.AreEqual(Sharp.DivisibleBy5(11), false);
+            Assert.AreEqual(false, Sharp.DivisibleBy5(11));
         }
 
         [Test]
         public void SharpBuzz_DivisibleBy15()
         {
-            Assert.AreEqual(Sharp.DivisibleBy15(30), true);
+            Assert.AreEqual(true, Sharp.DivisibleBy15(30));
         }
 
         [Test]
         public void SharpBuzz_NotDivisibleBy15()
         {
-            Assert.AreEqual(Sharp.DivisibleBy15(31), false);
+            Assert.AreEqual(false, Sharp.DivisibleBy15(31));
         }
 
         [Test]
-        public void SharpBuzz_OutputFull()
+        public void SharpBuzz_OutputFullAry()
         {
-            Assert.AreEqual(Sharp.OutputsAll(100), "SharpBuzz");
+            var actual = new[] { "1", "2", "Sharp", "4", "Buzz", "Sharp", "7", "8", "Sharp", "Buzz", "11", "Sharp", "13", "14", "SharpBuzz" };
+            Assert.AreEqual(actual, Sharp.OutputsAllToArray(16));
         }
     }
 }
