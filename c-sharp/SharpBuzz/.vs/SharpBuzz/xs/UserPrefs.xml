@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{2862BB0B-FB2A-43F0-BEA5-30900D4AA422}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.SharpBuzz PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SharpBuzz/EmptyClass.cs">
+    <Files>
+      <File FileName="SharpBuzz/Test.cs" Line="10" Column="10" />
+      <File FileName="SharpBuzz/EmptyClass.cs" Line="6" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SharpBuzz" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

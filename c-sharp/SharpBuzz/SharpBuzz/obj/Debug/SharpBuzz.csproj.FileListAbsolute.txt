@@ -1,0 +1,9 @@
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/bin/Debug/SharpBuzz.dll
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/bin/Debug/SharpBuzz.pdb
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/bin/Debug/nunit.framework.dll
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/bin/Debug/nunit.framework.xml
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/obj/Debug/SharpBuzz.csprojAssemblyReference.cache
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/obj/Debug/SharpBuzz.csproj.CoreCompileInputs.cache
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/obj/Debug/SharpBuzz.csproj.CopyComplete
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/obj/Debug/SharpBuzz.dll
+/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/obj/Debug/SharpBuzz.pdb
