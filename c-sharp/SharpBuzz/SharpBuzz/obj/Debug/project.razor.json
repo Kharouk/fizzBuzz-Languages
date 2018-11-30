@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/alexkharouk/Programming/projects/fizzBuzz-Languages/c-sharp/SharpBuzz/SharpBuzz/SharpBuzz.csproj",
+  "TargetFramework": "v4.7",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
